@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61460e74-5146-4447-9f14-8acaea688af7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/receipe_app/client/recipes/NewRecipe.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/receipe_app/client/recipes/Recipes.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/receipe_app/client/layouts/MainLayout.html" afterPath="$PROJECT_DIR$/receipe_app/client/layouts/MainLayout.html" />
-      <change beforePath="$PROJECT_DIR$/receipe_app/collections/recipes.js" afterPath="$PROJECT_DIR$/receipe_app/collections/recipes.js" />
-      <change beforePath="$PROJECT_DIR$/receipe_app/lib/routes.js" afterPath="$PROJECT_DIR$/receipe_app/lib/routes.js" />
-      <change beforePath="$PROJECT_DIR$/receipe_app/package-lock.json" afterPath="$PROJECT_DIR$/receipe_app/package-lock.json" />
+      <change beforePath="$PROJECT_DIR$/receipe_app/.meteor/packages" afterPath="$PROJECT_DIR$/receipe_app/.meteor/packages" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,6 +17,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="packages" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/receipe_app/.meteor/packages">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="MainLayout.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/receipe_app/client/layouts/MainLayout.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -32,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="recipes.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="recipes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/receipe_app/collections/recipes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="33" column="30" lean-forward="false" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+            <state relative-caret-position="140">
+              <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -81,7 +86,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/receipe_app/intermediate.html" />
-        <option value="$PROJECT_DIR$/receipe_app/.meteor/packages" />
         <option value="$PROJECT_DIR$/receipe_app/client/index.js" />
         <option value="$PROJECT_DIR$/receipe_app/server/init.js" />
         <option value="$PROJECT_DIR$/receipe_app/intermediate.js" />
@@ -92,6 +96,7 @@
         <option value="$PROJECT_DIR$/receipe_app/client/recipes/Recipes.html" />
         <option value="$PROJECT_DIR$/receipe_app/client/recipes/NewRecipe.html" />
         <option value="$PROJECT_DIR$/receipe_app/collections/recipes.js" />
+        <option value="$PROJECT_DIR$/receipe_app/.meteor/packages" />
       </list>
     </option>
   </component>
@@ -143,6 +148,12 @@
               <item name="meteor__recipe_app" type="b2602c69:ProjectViewProjectNode" />
               <item name="meteor__recipe_app" type="462c0819:PsiDirectoryNode" />
               <item name="receipe_app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meteor__recipe_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meteor__recipe_app" type="462c0819:PsiDirectoryNode" />
+              <item name="receipe_app" type="462c0819:PsiDirectoryNode" />
+              <item name=".meteor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="meteor__recipe_app" type="b2602c69:ProjectViewProjectNode" />
@@ -213,12 +224,12 @@
       <updated>1516979963253</updated>
       <workItem from="1516979964491" duration="3602000" />
       <workItem from="1516990021347" duration="152000" />
-      <workItem from="1517091767246" duration="4075000" />
+      <workItem from="1517091767246" duration="4560000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7829000" />
+    <option name="totallyTimeSpent" value="8314000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="26" y="35" width="1400" height="800" extended-state="0" />
@@ -413,14 +424,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/receipe_app/.meteor/packages">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/receipe_app/intermediate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -479,8 +482,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/receipe_app/collections/recipes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="33" column="30" lean-forward="false" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+        <state relative-caret-position="140">
+          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/receipe_app/.meteor/packages">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
           <folding />
         </state>
       </provider>
