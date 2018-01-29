@@ -1,14 +1,12 @@
-// Meteor.subscribe('recipes');
-
 Template.Recipes.onCreated(function(){
-    this.autorun(() => {
-        this.subscribe('recipes');
+    var self = this;
+    self.autorun(function() {
+        self.subscribe('recipes');
     });
 });
 
-
 Template.Recipes.helpers({
-    recipes: () => {
-        return Recipes.find({})
+    recipes: ()=> {
+        return Recipes.find({});
     }
 });
