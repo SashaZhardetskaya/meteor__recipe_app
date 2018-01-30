@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61460e74-5146-4447-9f14-8acaea688af7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/receipe_app/client/recipes/Recipe.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/receipe_app/.meteor/packages" afterPath="$PROJECT_DIR$/receipe_app/.meteor/packages" />
-      <change beforePath="$PROJECT_DIR$/receipe_app/client/recipes.js" afterPath="$PROJECT_DIR$/receipe_app/client/recipes.js" />
-      <change beforePath="$PROJECT_DIR$/receipe_app/client/recipes/Recipe.html" afterPath="$PROJECT_DIR$/receipe_app/client/recipes/Recipe.html" />
-      <change beforePath="$PROJECT_DIR$/receipe_app/client/recipes/RecipeSingle.js" afterPath="$PROJECT_DIR$/receipe_app/client/recipes/RecipeSingle.js" />
-      <change beforePath="$PROJECT_DIR$/receipe_app/lib/routes.js" afterPath="$PROJECT_DIR$/receipe_app/lib/routes.js" />
-      <change beforePath="$PROJECT_DIR$/receipe_app/server/publish.js" afterPath="$PROJECT_DIR$/receipe_app/server/publish.js" />
+      <change beforePath="$PROJECT_DIR$/receipe_app/client/recipes/Recipe.js" afterPath="$PROJECT_DIR$/receipe_app/client/recipes/Recipe.js" />
+      <change beforePath="$PROJECT_DIR$/receipe_app/collections/recipes.js" afterPath="$PROJECT_DIR$/receipe_app/collections/recipes.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -46,6 +41,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="recipes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/receipe_app/collections/recipes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="63" column="18" lean-forward="false" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -77,7 +82,6 @@
         <option value="$PROJECT_DIR$/receipe_app/intermediate.js" />
         <option value="$PROJECT_DIR$/receipe_app/index.html" />
         <option value="$PROJECT_DIR$/receipe_app/client/layouts/HomeLayout.html" />
-        <option value="$PROJECT_DIR$/receipe_app/collections/recipes.js" />
         <option value="$PROJECT_DIR$/receipe_app/settings.json" />
         <option value="$PROJECT_DIR$/receipe_app/client/partials/SideNav.html.js" />
         <option value="$PROJECT_DIR$/receipe_app/client/partials/SideNav.html" />
@@ -98,6 +102,7 @@
         <option value="$PROJECT_DIR$/receipe_app/lib/routes.js" />
         <option value="$PROJECT_DIR$/receipe_app/client/recipes/Recipe.html" />
         <option value="$PROJECT_DIR$/receipe_app/client/recipes/RecipeSingle.js" />
+        <option value="$PROJECT_DIR$/receipe_app/collections/recipes.js" />
         <option value="$PROJECT_DIR$/receipe_app/client/recipes/Recipe.js" />
       </list>
     </option>
@@ -227,12 +232,12 @@
       <workItem from="1517091767246" duration="5572000" />
       <workItem from="1517215701595" duration="8168000" />
       <workItem from="1517240155032" duration="3580000" />
-      <workItem from="1517251904355" duration="3623000" />
+      <workItem from="1517251904355" duration="4371000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24697000" />
+    <option name="totallyTimeSpent" value="25445000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="21" y="36" width="1400" height="800" extended-state="0" />
@@ -512,14 +517,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/receipe_app/collections/recipes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/receipe_app/client/recipes/Recipes.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -532,6 +529,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/receipe_app/collections/recipes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="63" column="18" lean-forward="false" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="18" />
           <folding />
         </state>
       </provider>
