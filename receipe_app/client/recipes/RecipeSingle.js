@@ -1,5 +1,5 @@
 
-
+//subscribe to a single recipe (separate collection)
 Template.RecipeSingle.onCreated(function(){
     this.autorun(() => {
         const id = FlowRouter.getParam('id');

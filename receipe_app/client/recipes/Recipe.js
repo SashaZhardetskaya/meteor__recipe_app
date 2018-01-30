@@ -11,7 +11,9 @@ Template.Recipe.helpers({
     updateRecipeId: function () {
         return this._id;
     },
-    editMode: function () {
+    editMode: () => {
+        // instance() allows us receive template which trigger the function.
+        // in this case 'click .fa-pencil' (line 28-29)
         return Template.instance().editMode.get();
     }
 });
@@ -23,8 +25,7 @@ Template.Recipe.events({
     'click .fa-trash': function () {
         Meteor.call('deleteRecipe', this._id);
     },
-    'click .fa-pencil': function (event, template) {
+    'click .fa-pencil': (event, template) => {
         template.editMode.set(!template.editMode.get())
-        // Session.set('editMode', !Session.get('editMode'))
     }
 });
