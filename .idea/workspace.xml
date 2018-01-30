@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61460e74-5146-4447-9f14-8acaea688af7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/receipe_app/client/recipes/Recipe.html" afterPath="$PROJECT_DIR$/receipe_app/client/recipes/Recipe.html" />
-      <change beforePath="$PROJECT_DIR$/receipe_app/client/recipes/Recipe.js" afterPath="$PROJECT_DIR$/receipe_app/client/recipes/Recipe.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/receipe_app/.meteor/packages" afterPath="$PROJECT_DIR$/receipe_app/.meteor/packages" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,8 +23,18 @@
       <file leaf-file-name="packages" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/receipe_app/.meteor/packages">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="versions" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/receipe_app/.meteor/versions">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="113" column="17" lean-forward="true" selection-start-line="113" selection-start-column="17" selection-end-line="113" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -40,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Recipe.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Recipe.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/receipe_app/client/recipes/Recipe.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-118">
-              <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            <state relative-caret-position="-145">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -129,7 +139,6 @@
         <option value="$PROJECT_DIR$/receipe_app/client/recipes/RecipeSingle.html" />
         <option value="$PROJECT_DIR$/receipe_app/client/recipes/Recipes.html" />
         <option value="$PROJECT_DIR$/receipe_app/server/publish.js" />
-        <option value="$PROJECT_DIR$/receipe_app/.meteor/packages" />
         <option value="$PROJECT_DIR$/receipe_app/client/recipes/RecipeSingle.js" />
         <option value="$PROJECT_DIR$/receipe_app/client/recipes.js" />
         <option value="$PROJECT_DIR$/receipe_app/client/recipes/Menu.js" />
@@ -141,6 +150,7 @@
         <option value="$PROJECT_DIR$/receipe_app/styles.styl" />
         <option value="$PROJECT_DIR$/receipe_app/client/recipes/Recipe.js" />
         <option value="$PROJECT_DIR$/receipe_app/client/recipes/Recipe.html" />
+        <option value="$PROJECT_DIR$/receipe_app/.meteor/packages" />
       </list>
     </option>
   </component>
@@ -276,12 +286,12 @@
       <workItem from="1517091767246" duration="5572000" />
       <workItem from="1517215701595" duration="8168000" />
       <workItem from="1517240155032" duration="3580000" />
-      <workItem from="1517251904355" duration="11137000" />
+      <workItem from="1517251904355" duration="11365000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32211000" />
+    <option name="totallyTimeSpent" value="32439000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="21" y="36" width="1400" height="800" extended-state="0" />
@@ -385,13 +395,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/receipe_app/client/index.js" />
-    <entry file="file://$PROJECT_DIR$/receipe_app/.meteor/versions">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="58" column="28" lean-forward="false" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/receipe_app/.meteor/platforms">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -553,14 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/receipe_app/.meteor/packages">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/receipe_app/client/recipes/Recipes.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -589,8 +584,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/receipe_app/client/recipes/Recipe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-118">
-          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        <state relative-caret-position="-145">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/receipe_app/.meteor/packages">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/receipe_app/.meteor/versions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="113" column="17" lean-forward="true" selection-start-line="113" selection-start-column="17" selection-end-line="113" selection-end-column="17" />
           <folding />
         </state>
       </provider>
