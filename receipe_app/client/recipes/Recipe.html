@@ -8,10 +8,12 @@
             {{/each}}
         </p>
         <a href="/recipe/{{_id}}">View Details</a>
+        <i class="fa fa-trash"></i>
         {{#if inMenu}}
             <button class="btn-deny toggle-menu">Remove from menu</button>
         {{else}}
             <button class="btn-primary toggle-menu">Add to menu</button>
         {{/if}}
+        {{> quickForm collection="Recipes" id=updateRecipeId type="update" doc=this autosave=thue}} //delete if don't need to edit all recipes at the same time
     </article>
 </template>
