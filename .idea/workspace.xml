@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61460e74-5146-4447-9f14-8acaea688af7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/receipe_app/client/ShoppingList.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/receipe_app/client/ShoppingList.js" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/receipe_app/client/recipes/Menu.js" afterPath="$PROJECT_DIR$/receipe_app/client/Menu.js" />
       <change beforePath="$PROJECT_DIR$/receipe_app/client/recipes/Recipe.html" afterPath="$PROJECT_DIR$/receipe_app/client/recipes/Recipe.html" />
-      <change beforePath="$PROJECT_DIR$/receipe_app/client/recipes/Recipe.js" afterPath="$PROJECT_DIR$/receipe_app/client/recipes/Recipe.js" />
-      <change beforePath="$PROJECT_DIR$/receipe_app/collections/recipes.js" afterPath="$PROJECT_DIR$/receipe_app/collections/recipes.js" />
-      <change beforePath="$PROJECT_DIR$/receipe_app/lib/routes.js" afterPath="$PROJECT_DIR$/receipe_app/lib/routes.js" />
+      <change beforePath="$PROJECT_DIR$/receipe_app/styles.styl" afterPath="$PROJECT_DIR$/receipe_app/styles.styl" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,14 +33,24 @@
       <file leaf-file-name="Recipe.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/receipe_app/client/recipes/Recipe.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="24" lean-forward="true" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+            <state relative-caret-position="240">
+              <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Recipe.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="styles.styl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/receipe_app/styles.styl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="346" column="4" lean-forward="false" selection-start-line="346" selection-start-column="4" selection-end-line="346" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Recipe.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/receipe_app/client/recipes/Recipe.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -129,13 +133,13 @@
         <option value="$PROJECT_DIR$/receipe_app/client/recipes.js" />
         <option value="$PROJECT_DIR$/receipe_app/client/recipes/Menu.js" />
         <option value="$PROJECT_DIR$/receipe_app/client/Menu.html" />
-        <option value="$PROJECT_DIR$/receipe_app/styles.styl" />
         <option value="$PROJECT_DIR$/receipe_app/lib/routes.js" />
         <option value="$PROJECT_DIR$/receipe_app/client/ShoppingList.js" />
         <option value="$PROJECT_DIR$/receipe_app/client/ShoppingList.html" />
-        <option value="$PROJECT_DIR$/receipe_app/client/recipes/Recipe.html" />
         <option value="$PROJECT_DIR$/receipe_app/collections/recipes.js" />
         <option value="$PROJECT_DIR$/receipe_app/client/recipes/Recipe.js" />
+        <option value="$PROJECT_DIR$/receipe_app/client/recipes/Recipe.html" />
+        <option value="$PROJECT_DIR$/receipe_app/styles.styl" />
       </list>
     </option>
   </component>
@@ -265,12 +269,12 @@
       <workItem from="1517091767246" duration="5572000" />
       <workItem from="1517215701595" duration="8168000" />
       <workItem from="1517240155032" duration="3580000" />
-      <workItem from="1517251904355" duration="9476000" />
+      <workItem from="1517251904355" duration="9883000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30550000" />
+    <option name="totallyTimeSpent" value="30957000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="21" y="36" width="1400" height="800" extended-state="0" />
@@ -494,14 +498,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/receipe_app/styles.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="322" column="53" lean-forward="false" selection-start-line="322" selection-start-column="53" selection-end-line="322" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/receipe_app/client/Menu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -550,14 +546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/receipe_app/client/recipes/Recipe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" lean-forward="true" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/receipe_app/client/recipes/Recipes.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -581,6 +569,22 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/receipe_app/client/recipes/Recipe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/receipe_app/styles.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="346" column="4" lean-forward="false" selection-start-line="346" selection-start-column="4" selection-end-line="346" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
