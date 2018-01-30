@@ -4,7 +4,7 @@
 
 
         <!--raix:handlebar-helpers package allows to use $.Session. "editMode" event is set up in Template.Recipe.events (file Recipe.js)-->
-        {{#if $.Session.get 'editMode'}}
+        {{#if editMode}}
 
             {{> quickForm
                     collection="Recipes"
