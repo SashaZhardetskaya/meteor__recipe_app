@@ -28,6 +28,7 @@ RecipeSchema = new SimpleSchema({
         label: "Description"
     },
     ingredients: {
+        // if type is array Quick form allows to add multiple inputs
         type: [Ingredient]
     },
     inMenu: {

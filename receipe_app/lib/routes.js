@@ -1,15 +1,20 @@
 
+// gwendall:auth-client-callbacks package allows to use Accounts.onLogin Accounts.onLogout methods
+// works only in client
 if (Meteor.isClient) {
-    Accounts.onLogin(function () {
+    Accounts.onLogin(() => {
         FlowRouter.go('recipe-book');
     });
-    Accounts.onLogout(function () {
+    Accounts.onLogout(() => {
         FlowRouter.go('home');
     });
 }
 
 
-
+// form of function
+// FlowRouter.triggers.enter([function(context, redirect) {
+//     redirect('/some-other-path');
+// }]);
 FlowRouter.triggers.enter([function (context, redirect) {
     if (!Meteor.userId()) {
         FlowRouter.go('home');
@@ -23,7 +28,6 @@ FlowRouter.route('/', {
         if (Meteor.userId()) {
             FlowRouter.go('recipe-book');
         }
-        // GAnalytics.pageview();
         BlazeLayout.render('HomeLayout');
     }
 });
@@ -31,7 +35,7 @@ FlowRouter.route('/', {
 FlowRouter.route('/recipe-book', {
     name: 'recipe-book',
     action() {
-        // GAnalytics.pageview();
+        // add Recipes template to Template.dynamic (main)
         BlazeLayout.render('MainLayout', {main: 'Recipes'});
     }
 });
@@ -39,7 +43,6 @@ FlowRouter.route('/recipe-book', {
 FlowRouter.route('/recipe/:id', {
     name: 'recipe',
     action() {
-        // GAnalytics.pageview();
         BlazeLayout.render('MainLayout', {main: 'RecipeSingle'});
     }
 });
@@ -47,7 +50,6 @@ FlowRouter.route('/recipe/:id', {
 FlowRouter.route('/menu', {
     name: 'menu',
     action() {
-        // GAnalytics.pageview();
         BlazeLayout.render('MainLayout', {main: 'Menu'});
     }
 });
@@ -55,7 +57,6 @@ FlowRouter.route('/menu', {
 FlowRouter.route('/shopping-list', {
     name: 'shopping-list',
     action() {
-        // GAnalytics.pageview();
         BlazeLayout.render('MainLayout', {main: 'ShoppingList'});
     }
 });

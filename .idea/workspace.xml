@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61460e74-5146-4447-9f14-8acaea688af7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" afterPath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/receipe_app/client/recipes.js" afterPath="$PROJECT_DIR$/receipe_app/client/recipes.js" />
+      <change beforePath="$PROJECT_DIR$/receipe_app/.meteor/packages" afterPath="$PROJECT_DIR$/receipe_app/.meteor/packages" />
+      <change beforePath="$PROJECT_DIR$/receipe_app/.meteor/versions" afterPath="$PROJECT_DIR$/receipe_app/.meteor/versions" />
+      <change beforePath="$PROJECT_DIR$/receipe_app/client/layouts/HomeLayout.html" afterPath="$PROJECT_DIR$/receipe_app/client/layouts/HomeLayout.html" />
+      <change beforePath="$PROJECT_DIR$/receipe_app/client/partials/Header.html" afterPath="$PROJECT_DIR$/receipe_app/client/partials/Header.html" />
+      <change beforePath="$PROJECT_DIR$/receipe_app/client/partials/SideNav.html" afterPath="$PROJECT_DIR$/receipe_app/client/partials/SideNav.html" />
+      <change beforePath="$PROJECT_DIR$/receipe_app/client/recipes.js" afterPath="$PROJECT_DIR$/receipe_app/client/recipes/recipes.js" />
+      <change beforePath="$PROJECT_DIR$/receipe_app/client/recipes/NewRecipe.html" afterPath="$PROJECT_DIR$/receipe_app/client/recipes/NewRecipe.html" />
       <change beforePath="$PROJECT_DIR$/receipe_app/client/recipes/NewRecipe.js" afterPath="$PROJECT_DIR$/receipe_app/client/recipes/NewRecipe.js" />
-      <change beforePath="$PROJECT_DIR$/receipe_app/client/recipes/Recipes.html" afterPath="$PROJECT_DIR$/receipe_app/client/recipes/Recipes.html" />
+      <change beforePath="$PROJECT_DIR$/receipe_app/client/recipes/Recipe.html" afterPath="$PROJECT_DIR$/receipe_app/client/recipes/Recipe.html" />
+      <change beforePath="$PROJECT_DIR$/receipe_app/collections/recipes.js" afterPath="$PROJECT_DIR$/receipe_app/collections/recipes.js" />
+      <change beforePath="$PROJECT_DIR$/receipe_app/intermediate.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/receipe_app/lib/routes.js" afterPath="$PROJECT_DIR$/receipe_app/lib/routes.js" />
+      <change beforePath="$PROJECT_DIR$/receipe_app/server/publish.js" afterPath="$PROJECT_DIR$/receipe_app/server/publish.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,31 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Recipes.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/receipe_app/client/recipes/Recipes.html">
+      <file leaf-file-name="packages" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/receipe_app/.meteor/packages">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="recipes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/receipe_app/client/recipes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewRecipe.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/receipe_app/client/recipes/NewRecipe.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="3" />
+            <state relative-caret-position="192">
+              <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -55,28 +46,18 @@
       <file leaf-file-name="Recipe.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/receipe_app/client/recipes/Recipe.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            <state relative-caret-position="75">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Recipe.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/receipe_app/client/recipes/Recipe.js">
+      <file leaf-file-name="NewRecipe.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/receipe_app/client/recipes/NewRecipe.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="29" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewRecipe.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/receipe_app/client/recipes/NewRecipe.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+            <state relative-caret-position="15">
+              <caret line="1" column="37" lean-forward="false" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -114,34 +95,34 @@
         <option value="$PROJECT_DIR$/receipe_app/server/init.js" />
         <option value="$PROJECT_DIR$/receipe_app/intermediate.js" />
         <option value="$PROJECT_DIR$/receipe_app/index.html" />
-        <option value="$PROJECT_DIR$/receipe_app/client/layouts/HomeLayout.html" />
         <option value="$PROJECT_DIR$/receipe_app/settings.json" />
         <option value="$PROJECT_DIR$/receipe_app/client/partials/SideNav.html.js" />
-        <option value="$PROJECT_DIR$/receipe_app/client/partials/SideNav.html" />
         <option value="$PROJECT_DIR$/receipe_app/client/layouts/MainLayout.html" />
-        <option value="$PROJECT_DIR$/receipe_app/client/partials/Header.html" />
         <option value="$PROJECT_DIR$/receipe_app/client/recipes/Single.html" />
         <option value="$PROJECT_DIR$/receipe_app/client/recipes/RecipeSingle" />
         <option value="$PROJECT_DIR$/receipe_app/client/recipes/SingleRecipe.html" />
         <option value="$PROJECT_DIR$/receipe_app/client/recipes/RecipeOne.html" />
         <option value="$PROJECT_DIR$/receipe_app/client/recipes/SingleRecipe.js" />
         <option value="$PROJECT_DIR$/receipe_app/client/recipes/RecipeSingle.html" />
-        <option value="$PROJECT_DIR$/receipe_app/server/publish.js" />
         <option value="$PROJECT_DIR$/receipe_app/client/recipes/RecipeSingle.js" />
         <option value="$PROJECT_DIR$/receipe_app/client/recipes/Menu.js" />
         <option value="$PROJECT_DIR$/receipe_app/client/Menu.html" />
-        <option value="$PROJECT_DIR$/receipe_app/lib/routes.js" />
         <option value="$PROJECT_DIR$/receipe_app/client/ShoppingList.js" />
         <option value="$PROJECT_DIR$/receipe_app/client/ShoppingList.html" />
-        <option value="$PROJECT_DIR$/receipe_app/collections/recipes.js" />
         <option value="$PROJECT_DIR$/receipe_app/styles.styl" />
-        <option value="$PROJECT_DIR$/receipe_app/.meteor/packages" />
-        <option value="$PROJECT_DIR$/receipe_app/client/recipes/Recipe.html" />
         <option value="$PROJECT_DIR$/receipe_app/client/recipes/Recipe.js" />
-        <option value="$PROJECT_DIR$/receipe_app/client/recipes/NewRecipe.html" />
-        <option value="$PROJECT_DIR$/receipe_app/client/recipes/NewRecipe.js" />
         <option value="$PROJECT_DIR$/receipe_app/client/recipes.js" />
         <option value="$PROJECT_DIR$/receipe_app/client/recipes/Recipes.html" />
+        <option value="$PROJECT_DIR$/receipe_app/.meteor/packages" />
+        <option value="$PROJECT_DIR$/receipe_app/lib/routes.js" />
+        <option value="$PROJECT_DIR$/receipe_app/server/publish.js" />
+        <option value="$PROJECT_DIR$/receipe_app/client/partials/Header.html" />
+        <option value="$PROJECT_DIR$/receipe_app/client/layouts/HomeLayout.html" />
+        <option value="$PROJECT_DIR$/receipe_app/client/partials/SideNav.html" />
+        <option value="$PROJECT_DIR$/receipe_app/collections/recipes.js" />
+        <option value="$PROJECT_DIR$/receipe_app/client/recipes/NewRecipe.html" />
+        <option value="$PROJECT_DIR$/receipe_app/client/recipes/Recipe.html" />
+        <option value="$PROJECT_DIR$/receipe_app/client/recipes/NewRecipe.js" />
       </list>
     </option>
   </component>
@@ -240,8 +221,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/receipe_app/client" />
       <recent name="$PROJECT_DIR$/receipe_app/client/recipes" />
+      <recent name="$PROJECT_DIR$/receipe_app/client" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -277,7 +258,7 @@
       <workItem from="1517091767246" duration="5572000" />
       <workItem from="1517215701595" duration="8168000" />
       <workItem from="1517240155032" duration="3580000" />
-      <workItem from="1517251904355" duration="14185000" />
+      <workItem from="1517251904355" duration="17954000" />
     </task>
     <task id="LOCAL-00001" summary="add reactive-var package">
       <created>1517310998620</created>
@@ -297,7 +278,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35259000" />
+    <option name="totallyTimeSpent" value="39028000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="21" y="36" width="1400" height="800" extended-state="0" />
@@ -338,14 +319,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/receipe_app/collections/recipes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/receipe_app/.meteor/packages">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -367,6 +340,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -391,60 +365,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/receipe_app/package.json" />
     <entry file="file://$PROJECT_DIR$/receipe_app/client/main.js" />
     <entry file="file://$PROJECT_DIR$/receipe_app/client/index.html" />
-    <entry file="file://$PROJECT_DIR$/receipe_app/server/init.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/receipe_app/client/index.js" />
-    <entry file="file://$PROJECT_DIR$/receipe_app/intermediate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/receipe_app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/receipe_app/client/layouts/HomeLayout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/receipe_app/settings.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/receipe_app/client/partials/SideNav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/receipe_app/client/layouts/MainLayout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -458,59 +390,11 @@
     <entry file="file://$PROJECT_DIR$/receipe_app/client/recipes/SingleRecipe.html" />
     <entry file="file://$PROJECT_DIR$/receipe_app/client/recipes/SingleRecipe.html" />
     <entry file="file://$PROJECT_DIR$/receipe_app/client/recipes/SingleRecipe.html" />
-    <entry file="file://$PROJECT_DIR$/receipe_app/client/partials/Header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/receipe_app/client/recipes/SingleRecipe.html" />
     <entry file="file://$PROJECT_DIR$/receipe_app/client/recipes/SingleRecipe.html" />
     <entry file="file://$PROJECT_DIR$/receipe_app/client/recipes/RecipeOne.js" />
     <entry file="file://$PROJECT_DIR$/receipe_app/client/recipes/RecipeOne.html" />
     <entry file="file://$PROJECT_DIR$/receipe_app/client/recipes/recipes.js" />
-    <entry file="file://$PROJECT_DIR$/receipe_app/server/publish.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/receipe_app/client/recipes/RecipeSingle.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/receipe_app/client/recipes/RecipeSingle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/receipe_app/client/Menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/receipe_app/lib/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="55" column="26" lean-forward="true" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/receipe_app/client/Menu.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -559,38 +443,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/receipe_app/.meteor/packages">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/receipe_app/client/recipes/Recipe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/receipe_app/client/recipes/NewRecipe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/receipe_app/collections/recipes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="70" column="16" lean-forward="false" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/receipe_app/client/recipes/Recipe.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
@@ -599,15 +451,119 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/receipe_app/client/recipes/NewRecipe.js">
+    <entry file="file://$PROJECT_DIR$/receipe_app/client/recipes/Recipes.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="3" />
+        <state relative-caret-position="75">
+          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/receipe_app/client/recipes.js">
+    <entry file="file://$PROJECT_DIR$/receipe_app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/receipe_app/intermediate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/receipe_app/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/receipe_app/lib/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="10" lean-forward="false" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/receipe_app/client/recipes/RecipeSingle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/receipe_app/client/recipes/RecipeSingle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/receipe_app/client/Menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/receipe_app/server/init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/receipe_app/server/publish.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/receipe_app/client/layouts/HomeLayout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/receipe_app/client/layouts/MainLayout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="28" lean-forward="true" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/receipe_app/client/partials/SideNav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/receipe_app/client/partials/Header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/receipe_app/client/recipes/recipes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
@@ -615,10 +571,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/receipe_app/client/recipes/Recipes.html">
+    <entry file="file://$PROJECT_DIR$/receipe_app/collections/recipes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        <state relative-caret-position="195">
+          <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/receipe_app/client/recipes/NewRecipe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/receipe_app/.meteor/packages">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/receipe_app/client/recipes/Recipe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/receipe_app/client/recipes/NewRecipe.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="37" lean-forward="false" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
           <folding />
         </state>
       </provider>
